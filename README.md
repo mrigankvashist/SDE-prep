@@ -1,3 +1,6 @@
+Hi. This repository consists of journey of SDE preparation. Here I am solving questions from pepcoding, Daily Leetcode problems, Striver questions and much more resources everyday while logging them over here. Feel free to access the same for your preparation.
+
+
 # Day 1
 - ### Is A Number Prime
 1. You've to check whether a given number is prime or not.
@@ -237,6 +240,51 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
 2. You are given n numbers.
 3. You are required to find the span of input. Span is defined as difference of maximum value and minimum value.
 
+- ### Find Element In An Array
+1.You are given a number n, representing the size of array a.
+2.You are given n distinct numbers, representing elements of array a.
+3. You are given another number d.
+4. You are required to check if d number exists in the array a and at what index (0 based). If found print the index, otherwise print -1.
+
+# Day 8
+- ### Number of Matching Subsequences
+Given a string s and an array of strings words, return the number of words[i] that is a subsequence of s.
+A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+For example, "ace" is a subsequence of "abcde".
+
+- ### Sum Of Two Arrays
+1. You are given a number n1, representing the size of array a1.
+2. You are given n1 numbers, representing elements of array a1.
+3. You are given a number n2, representing the size of array a2.
+4. You are given n2 numbers, representing elements of array a2.
+5. The two arrays represent digits of two numbers.
+6. You are required to add the numbers represented by two arrays and print the
+arrays.
+
+- ### Reverse Linked List II
+Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
+
+- ### Difference Of Two Arrays
+1. You are given a number n1, representing the size of array a1.
+2. You are given n1 numbers, representing elements of array a1.
+3. You are given a number n2, representing the size of array a2.
+4. You are given n2 numbers, representing elements of array a2.
+5. The two arrays represent digits of two numbers.
+6. You are required to find the difference of two numbers represented by two arrays and print the arrays. a2 - a1
+
+Assumption - number represented by a2 is greater.
+
+- ### Reverse An Array
+1. You are given a number n, representing the size of array a.
+2. You are given n numbers, representing elements of array a.
+3. You are required to reverse the contents of array a.
+
+- ### Rotate An Array
+1. You are given a number n, representing the size of array a.
+2. You are given n numbers, representing elements of array a.
+3. You are given a number k.
+4. Rotate the array a, k times to the right (for positive values of k), and to
+the left for negative values of k.
 
 
 
