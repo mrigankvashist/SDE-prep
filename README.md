@@ -286,6 +286,30 @@ Assumption - number represented by a2 is greater.
 4. Rotate the array a, k times to the right (for positive values of k), and to
 the left for negative values of k.
 
+# Day 9
+- ### Inverse Of An Array
+1. You are given a number n, representing the size of array a.
+2. You are given n numbers, representing elements of array a.
+3. You are required to calculate the inverse of array a.
+
+- ### Subarray Problem
+1. You are given an array of size 'n' and n elements of the same array.
+2. You are required to find and print all the subarrays of the given array. 
+3. Each subarray should be space seperated and on a seperate lines. Refer to sample input and output.
+
+- ### Subsets Of Array
+1. You are given a number n, representing the count of elements.
+2. You are given n numbers.
+3. You are required to print all subsets of arr. Each subset should be
+on separate line. For more clarity check out sample input and output.
+
+- ### Partition List
+Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
+You should preserve the original relative order of the nodes in each of the two partitions.
+
+# Day 10
+- ### Revsion 
+
 
 
 
