@@ -308,8 +308,50 @@ Given the head of a linked list and a value x, partition it such that all nodes 
 You should preserve the original relative order of the nodes in each of the two partitions.
 
 # Day 10
-- ### Revsion 
+- ### Revision 
 
+# Day 11
+- ### Broken Economy
+In a country of novice government, the economic system is changed where only coins are used that too of various denominations. Whenever a foreigner visits this country, they visit a money exchanger to get the currency of the same country. As the foreigner is unaware of the denomination of the country, the money exchange prefers to tell them the denomination which is the nearest maximum and nearest minimum to the denomination mentioned by the foreigner. In case they get the correct guess of the denomination, they are told the same denomination. The denominations are always quoted in ascending order.
+Example 1: In a country, 8 given denominations are as follows
+[5, 10, 15, 22, 33, 40, 42, 55]
+
+- ### First Index And Last Index
+1. You are given a number n, representing the size of array a.
+2. You are given n numbers, representing elements of array a.
+Asssumption - Array is sorted. Array may have duplicate values.
+
+- ### 2d Arrays Demo
+1. You are given a number n, representing the number of rows.
+2. You are given a number m, representing the number of columns.
+3. You are given n*m numbers, representing elements of 2d array a.
+4. You are required to display the contents of 2d array as suggested by output format below.
+
+- ### Matrix Multiplication
+You are given a number n1, representing the number of rows of 1st matrix.
+You are given a number m1, representing the number of columns of 1st matrix.
+You are given n1*m1 numbers, representing elements of 2d array a1.
+You are given a number n2, representing the number of rows of 2nd matrix.
+You are given a number m2, representing the number of columns of 2nd matrix.
+You are given n2*m2 numbers, representing elements of 2d array a2.
+If the two arrays representing two matrices of dimensions n1 * m1 and n2 * m2 can be multiplied, display the contents of product array as specified in output format.
+If the two arrays can't be multiplied, print "Invalid input".
+
+- ### The State Of Wakanda - 1 // WAVE Traversal
+
+WAVE Traversal :- 
+For example, the monuments are named as follows:
+1  2  3
+4  5  6
+7  8  9
+
+Path followed by traveler: 1->4->7->8->5->2->3->6->9
+You are required to print the path that this traveler follows to visit all places.
+1. You will be given a number n, representing the number of rows.
+2. You will be given a number m, representing the number of columns.
+3. You will be given n*m numbers, representing elements of 2d arrays.
+
+Note - Please check the output format for details.
 
 
 
