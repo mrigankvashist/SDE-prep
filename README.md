@@ -350,8 +350,78 @@ You are required to print the path that this traveler follows to visit all place
 1. You will be given a number n, representing the number of rows.
 2. You will be given a number m, representing the number of columns.
 3. You will be given n*m numbers, representing elements of 2d arrays.
-
 Note - Please check the output format for details.
+
+# Day 12
+- ### Spiral Display
+1. You are given a number n, representing the number of rows.
+2. You are given a number m, representing the number of columns.
+3. You are given n*m numbers, representing elements of 2d array a.
+4. You are required to traverse and print the contents of the 2d array in form of a spiral.
+Note - Please check the sample output for details.
+
+- ### Exit Point Of A Matrix
+1. You are given a number n, representing the number of rows.
+2. You are given a number m, representing the number of columns.
+3. You are given n*m numbers (1's and 0's), representing elements of 2d array a.
+4. Consider this array a maze and a player enters from top-left corner in east direction.
+5. The player moves in the same direction as long as he meets '0'. On seeing a 1, he takes a 90 deg right turn.
+6. You are required to print the indices in (row, col) format of the point from where you exit the matrix.
+
+- ### Rotate By 90 Degree
+1. You are given a number n, representing the number of rows and number of columns.
+2. You are given n*n numbers, representing elements of 2d array a.
+3. You are required to rotate the matrix by 90 degree clockwise and then display the contents using display function.
+*Note - you are required to do it in-place i.e. no extra space should be used to achieve it
+
+- ### Ring Rotate
+You are given a n* m matrix where n are the number of rows and m are the number of columns. You are also given n*m numbers representing the elements of the matrix.
+You will be given a ring number 's' representing the ring of the matrix. For details, refer to image.
+<img src = "http://pepcoding.com/resources/ojquestionresource/images/shell-rotate.jpg">
+You will be given a number 'r' representing number of rotations in an anti-clockwise manner of the specified ring.
+You are required to rotate the 's'th ring by 'r' rotations and display the rotated matrix.
+
+
+# Day 13
+- ### The State Of Wakanda - 2
+For Example:
+The monuments are named as:
+1    2    3    4
+5    6    7    8
+9   10  11  12
+13 14  15  16
+The path followed by the visitor is: 1->6->11->16->2->7->12->3->8->4
+You are required to print the path followed by the traveller to visit all the monuments.
+Refer to the photo for a better clarification.
+1. You are given a number n, representing the number of rows and columns of a square matrix.
+2. You are given n * n numbers, representing elements of 2d array a.
+3. You are required to diagonally traverse the upper half of the matrix and print the contents.
+For details check image.
+
+- ### Saddle Price
+1. You are given a square matrix of size 'n'. You are given n*n elements of the square matrix. 
+2. You are required to find the saddle price of the given matrix and print the saddle price. 
+3. The saddle price is defined as the least price in the row but the maximum price in the column of the matrix.
+
+- ###  Search In A Sorted 2d Array
+1. You are given a number n, representing the number of rows and columns of a square matrix.
+2. You are given n * n numbers, representing elements of 2d array a. 
+Note - Each row and column is sorted in increasing order.
+3. You are given a number x.
+4. You are required to find x in the matrix and print it's location int (row, col) format as discussed in output format below.
+5. In case element is not found, print "Not Found".
+
+- ### Print All Palindromic Substrings
+1. You are given a string. 
+2. You have to print all palindromic substrings of the given string.
+
+- ### String Compression
+1. You are given a string. 
+2. You have to compress the given string in the following two ways - 
+   First compression -> The string should be compressed such that consecutive duplicates of characters are replaced with a single character.
+   For "aaabbccdee", the compressed string will be "abcde".
+   Second compression -> The string should be compressed such that consecutive duplicates of characters are replaced with the character and followed by the number of consecutive duplicates.
+   For "aaabbccdee", the compressed string will be "a3b2c2de2".
 
 
 
