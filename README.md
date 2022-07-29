@@ -424,6 +424,35 @@ Note - Each row and column is sorted in increasing order.
    For "aaabbccdee", the compressed string will be "a3b2c2de2".
 
 
+# Day 14
+- ### Valid Anagram
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
+- ### Toggle Optica Document
+1. There is an agreement document for JSCOP optica but by mistake, the case of every character in the string of document is a toggle so you need to correct it.
+2. You are given a string of the document that contains only lowercase and uppercase alphabets. 
+3. You have to toggle the case of every character of the given string
+
+- ### Consecutive Characters Leetcode: 1446
+The power of the string is the maximum length of a non-empty substring that contains only one unique character.
+Given a string s, return the power of s
+
+Example 1:
+Input: s = "leetcode"
+Output: 2
+Explanation: The substring "ee" is of length 2 with the character 'e' only.
+
+- ### String With Difference Of Every Two Consecutive Characters
+1. You are given a string that contains only lowercase and uppercase alphabets. 
+2. You have to form a string that contains the difference of ASCII values of every two consecutive characters between those characters.
+   For "abecd", the answer should be "a1b3e-2c1d", as 
+   'b'-'a' = 1
+   'e'-'b' = 3
+   'c'-'e' = -2
+   'd'-'c' = 1
+
+- ### Remove Primes
+1. You are given an ArrayList of positive integers. 2. You have to remove prime numbers from the given ArrayList and return the updated ArrayList. Note -> The order of elements should remain same
 
 
