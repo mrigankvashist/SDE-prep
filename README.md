@@ -456,3 +456,40 @@ Explanation: The substring "ee" is of length 2 with the character 'e' only.
 1. You are given an ArrayList of positive integers. 2. You have to remove prime numbers from the given ArrayList and return the updated ArrayList. Note -> The order of elements should remain same
 
 
+# Day 15
+- ### Unique Paths
+There is a robot on an m x n grid. The robot is initially located at the top-left corner (i.e., grid[0][0]). The robot tries to move to the bottom-right corner (i.e., grid[m - 1][n - 1]). The robot can only move either down or right at any point in time.
+Given the two integers m and n, return the number of possible unique paths that the robot can take to reach the bottom-right corner.
+The test cases are generated so that the answer will be less than or equal to 2 * 109.
+
+- ### Kth Smallest Element in a Sorted Matrix
+Given an n x n matrix where each of the rows and columns is sorted in ascending order, return the kth smallest element in the matrix.
+Note that it is the kth smallest element in the sorted order, not the kth distinct element.
+You must find a solution with a memory complexity better than O(n2)
+
+- ### Print All Permutations Of A String Iteratively
+1. You are given a string. 
+2. You have to print all permutations of the given string iteratively.
+
+- ### Print Decreasing
+1. You are given a positive number n. 
+2. You are required to print the counting from n to 1.
+3. You are required to not use any loops. Complete the body of print Decreasing function to achieve it.
+
+Note -> The online judge can't force you to write the function recursively but that is what the spirit of question is. Write recursive and not iterative logic. The purpose of the question is to aid learning recursion and not test you.
+
+- ### Print Increasing
+1. You are given a positive number n. 
+2. You are required to print the counting from 1 to n.
+3. You are required to not use any loops. Complete the body of print Increasing function to achieve it. Don't change the signature of the function.
+
+- ### Print Increasing Decreasing
+1. You are given a positive number n. 
+2. You are required to print the counting from n to 1 and back to n again.
+3. You are required to not use any loops. Complete the body of pdi function to achieve it. Don't change the signature of the function.
+
+- ### Factorial
+1. You are given a number n.
+2. You are required to calculate the factorial of the number. Don't change the signature of factorial function.
+
+
