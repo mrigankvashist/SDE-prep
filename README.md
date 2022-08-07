@@ -493,3 +493,40 @@ Note -> The online judge can't force you to write the function recursively but t
 2. You are required to calculate the factorial of the number. Don't change the signature of factorial function.
 
 
+# Day 16
+- ### Power-linear
+1. You are given a number x.
+2. You are given another number n.
+3. You are required to calculate x raised to the power n. Don't change the signature of power function .
+
+- ### Power-logarithmic
+1. You are given a number x.
+2. You are given another number n.
+3. You are required to calculate x raised to the power n. Don't change the signature of power function.
+
+Note1 -> The previous version expects the call stack to be of n height. This function expects call function to be only log(n) high.
+
+- ### Combination Sum IV
+Given an array of distinct integers nums and a target integer target, return the number of possible combinations that add up to target.
+The test cases are generated so that the answer can fit in a 32-bit integer.
+
+- ### Display Array
+1. You are given a number n, representing the size of array a.
+2. You are given n numbers, representing elements of array a.
+3. You are required to print the elements of array from beginning to end each in a separate line.
+4. For the above purpose complete the body of displayArr function. Don't change the signature.
+
+- ### Print Zigzag
+1. Here are a few sets of inputs and outputs for your reference
+Input1 -> 1
+Output1 -> 1 1 1
+
+Input2 -> 2
+Output2 -> 2 1 1 1 2 1 1 1 2
+
+Input2 -> 3
+Output3 -> 3 2 1 1 1 2 1 1 1 2 3 2 1 1 1 2 1 1 1 2 3
+
+2. Figure out the pattern and complete the recursive function pzz to achieve the above for any positive number n.
+
+
