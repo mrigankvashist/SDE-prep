@@ -530,3 +530,67 @@ Output3 -> 3 2 1 1 1 2 1 1 1 2 3 2 1 1 1 2 1 1 1 2 3
 2. Figure out the pattern and complete the recursive function pzz to achieve the above for any positive number n.
 
 
+# Day 17
+
+- ### Display Array In Reverse
+1. You are given a number n, representing the size of array a.
+2. You are given n numbers, representing elements of array a.
+3. You are required to print the elements of array from end to beginning each in a separate line.
+4. For the above purpose complete the body of displayArrReverse function. Don't change the signature.
+
+- ### Max Of An Array
+1. You are given a number n, representing the count of elements.
+2. You are given n numbers.
+3. You are required to find the maximum of input. 
+4. For the purpose complete the body of maxOfArray function. Don't change the signature.
+
+- ### Tower Of Hanoi
+1. There are 3 towers. Tower 1 has n disks, where n is a positive number. Tower 2 and 3 are empty. 2. The disks are increasingly placed in terms of size such that the smallest disk is on top and largest disk is at bottom. 3. You are required to 3.1. Print the instructions to move the disks. 3.2. from tower 1 to tower 2 using tower 3 3.3. following the rules 3.3.1 move 1 disk at a time. 3.3.2 never place a smaller disk under a larger disk. 3.3.3 you can only move a disk at the top
+
+- ### First Index
+1. You are given a number n, representing the count of elements.
+2. You are given n numbers.
+3. You are given a number x. 
+4. You are required to find the first index at which x occurs in array a.
+5. If x exists in array, print the first index where it is found otherwise print -1.
+
+- ### Last Index
+1. You are given a number n, representing the count of elements.
+2. You are given n numbers.
+3. You are given a number x. 
+4. You are required to find the last index at which x occurs in array a.
+5. If x exists in array, print the last index where it is found otherwise print -1.
+
+
+# Day 18
+- ### All Indices Of Array
+1. You are given a number n, representing the count of elements. 
+2. You are given n numbers.
+3. You are given a number x. 
+4. You are required to return the all indices at which x occurs in array a. 
+5. Return an array of appropriate size which contains all indices at which x occurs in array 
+6. If no such element exist print "NO OUTPUT" a. 
+
+- ### Get Subsequence
+1. You are given a string str. 2. Complete the body of getSS function - without changing signature - to calculate all subsequences of str. Use sample input and output to take idea about subsequences. Note -> The online judge can't force you to write the function recursively but that is what the spirit of question is. Write recursive and not iterative logic. The purpose of the question is to aid learning recursion and not test you.
+
+- ### ArrayList and substring basics
+
+- ### Is Subsequence
+Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
+- ### Unique Morse Code Words
+International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows:
+'a' maps to ".-",
+'b' maps to "-...",
+'c' maps to "-.-.", and so on.
+For convenience, the full table for the 26 letters of the English alphabet is given below:
+
+[".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
+Given an array of strings words where each word can be written as a concatenation of the Morse code of each letter.
+
+For example, "cab" can be written as "-.-..--...", which is the concatenation of "-.-.", ".-", and "-...". We will call such a concatenation the transformation of a word.
+Return the number of different transformations among all words we have.
+
+
