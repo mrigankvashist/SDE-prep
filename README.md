@@ -594,3 +594,44 @@ For example, "cab" can be written as "-.-..--...", which is the concatenation of
 Return the number of different transformations among all words we have.
 
 
+# Day 19
+- ### Get Kpc
+You are given a string str. The string str will contains numbers only, where each number stands for a key pressed on a mobile phone.
+The following list is the key to characters map :
+    0 -> .;
+    1 -> abc
+    2 -> def
+    3 -> ghi
+    4 -> jkl
+    5 -> mno
+    6 -> pqrs
+    7 -> tu
+    8 -> vwx
+    9 -> yz
+Complete the body of getKPC function - without changing signature - to get the list of all words that could be produced by the keys in str.
+Use sample input and output to take idea about output.
+
+- ### Reduce Array Size to The Half
+You are given an integer array arr. You can choose a set of integers and remove all the occurrences of these integers in the array.
+Return the minimum size of the set so that at least half of the integers of the array are removed.
+
+- ### Get Stair Paths
+1. You are given a number n representing number of stairs in a staircase.
+2. You are standing at the bottom of staircase. You are allowed to climb 1 step, 2 steps or 3 steps in one move.
+3. Complete the body of getStairPaths function - without changing signature - to get the list of all paths that can be used to climb the staircase up.
+Use sample input and output to take idea about output.
+
+- ### Get Maze Paths
+1. You are given a number n and a number m representing number of rows and columns in a maze.
+2. You are standing in the top-left corner and have to reach the bottom-right corner. Only two moves are allowed 'h' (1-step horizontal) and 'v' (1-step vertical).
+3. Complete the body of getMazePath function - without changing signature - to get the list of all paths that can be used to move from top-left to bottom-right.
+Use sample input and output to take idea about output.
+
+- ### Get Maze Path With Jumps
+1. You are given a number n and a number m representing number of rows and columns in a maze.
+2. You are standing in the top-left corner and have to reach the bottom-right corner. 
+3. In a single move you are allowed to jump 1 or more steps horizontally (as h1, h2, .. ), or 1 or more steps vertically (as v1, v2, ..) or 1 or more steps diagonally (as d1, d2, ..). 
+4. Complete the body of getMazePath function - without changing signature - to get the list of all paths that can be used to move from top-left to bottom-right.
+Use sample input and output to take idea about output.
+
+
