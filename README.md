@@ -635,3 +635,20 @@ Use sample input and output to take idea about output.
 Use sample input and output to take idea about output.
 
 
+# Day 20
+- ### Print Subsequence
+1. You are given a string str.
+2. Complete the body of printSS function - without changing signature - to calculate and print all subsequences of str.
+Use sample input and output to take idea about subsequences.
+
+- ### Power of Two
+Given an integer n, return true if it is a power of two. Otherwise, return false.
+An integer n is a power of two, if there exists an integer x such that n == 2x.
+
+- ###  Power of Three
+Given an integer n, return true if it is a power of three. Otherwise, return false.
+An integer n is a power of three, if there exists an integer x such that n == 3^x.
+
+- ###  Print Kpc
+1. You are given a string str. The string str will contains numbers only, where each number stands for a key pressed on a mobile phone. 2. The following list is the key to characters map 0 -> .; 1 -> abc 2 -> def 3 -> ghi 4 -> jkl 5 -> mno 6 -> pqrs 7 -> tu 8 -> vwx 9 -> yz 3. Complete the body of printKPC function - without changing signature - to print the list of all words that could be produced by the keys in str. Use sample input and output to take idea about output.
+
